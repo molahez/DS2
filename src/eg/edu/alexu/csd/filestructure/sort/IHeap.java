@@ -22,6 +22,9 @@ public interface IHeap<T extends Comparable<T>> extends Cloneable {
 	 *            the reference to the tree to be heapified
 	 */
 	void heapify(INode<T> node);
+	
+	
+	
 
 	/**
 	 * Extract the maximum element out of the heap, and remove it from the heap. Run
